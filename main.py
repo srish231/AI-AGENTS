@@ -1,3 +1,15 @@
+#CALCULATOR AGENT
+
+python -m venv venv
+.\venv\Scripts\activate
+
+pip install transformers
+pip install torch
+pip install accelerate
+
+pip install datasets
+pip install huggingface_hub
+
 from transformers import pipeline
 
 # Load the question-answering model
